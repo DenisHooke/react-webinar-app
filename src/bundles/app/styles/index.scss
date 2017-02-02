@@ -1,0 +1,16 @@
+@import "./bootstrap";
+@import "./scaffold";
+
+.root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.root__navbar {
+  flex-shrink: 0;
+}
+
+.root__content {
+  flex-grow: 1;
+}
