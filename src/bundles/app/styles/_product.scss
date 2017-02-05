@@ -1,0 +1,18 @@
+.product {
+  display: flex;
+
+  .image {
+    width: 40%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .info {
+    width: 60%;
+    box-sizing: border-box;
+
+    padding: 0 10px;
+  }
+}
